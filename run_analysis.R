@@ -31,7 +31,5 @@ names(data_tidy)<-gsub("gravity", "Gravity", names(data_tidy))
 
 # ----
 # Fifth step : Creating an independent tidy data set from data step above
-data_final <- data_tidy %>%
-  group_by(subject, activity) %>%
-  summarise_all(funs(mean))
+data_final <- data_tidy %>% group_by(subject, activity) %>% summarise_all(funs(mean))
 write.table(data_final, "Data_Final.txt", row.name=FALSE)
