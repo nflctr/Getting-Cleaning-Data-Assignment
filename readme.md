@@ -15,4 +15,4 @@ File : run_analysis.R contains all process that described in the assignment's ex
   - Create an independent tidy data set with the average of each variable for each activity and each subject
 
 ### Tidy Data - Final
-File : tidy_data_final.txt is an independent tidy data set as the output from the run analysis file
+File : data_tidy_final.txt is an independent tidy data set as the output from the run analysis file
