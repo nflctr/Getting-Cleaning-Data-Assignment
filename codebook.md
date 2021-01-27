@@ -28,4 +28,4 @@ Label the data set
 ### Fifth Step
 Creating an independent tidy data set
 - Summarizing 'data_tidy' and create new tidy data set 'data_final'
-- Export 'data_final' into 'tidy_data_final.txt'
+- Export 'data_final' into 'data_tidy_final.txt'
